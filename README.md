@@ -120,7 +120,7 @@ joern> importCpg("/path/to/your/cpg.bin")
 
 The plugin accepts two separate trace files:
 
-#### 3.1 BeenTraced File (Optional)
+#### 3.1 BeenTraced File
 
 Contains a list of function names to mark with the `BeenTraced` property:
 
@@ -184,7 +184,7 @@ Automatically detects vulnerability patterns in traced methods:
 ### Run the AutoDetect Plugin
 
 ```scala
-joern> opts.traceextension.pathToBeenTracedFile = "/path/to/beentraced.json"
+# after you run the TraceExtension plugin
 joern> opts.autodetect.outputPath = "/path/to/VulReport.txt"
 joern> run.autodetect
 ```
