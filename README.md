@@ -116,9 +116,9 @@ cd ./joern-inst/joern-cli
 # if you have cpg
 joern> importCpg("/path/to/your/cpg.bin")
 
-# if you only have source code
+// if you only have source code
 joern> importCode(inputPath="/path/to/src_dir/", projectName="xxx")
-# you will find the cpg in ./workspace/xxx
+// you will find the cpg in ./workspace/xxx
 ```
 
 ### 3. Configure Trace Paths
@@ -189,7 +189,7 @@ Automatically detects vulnerability patterns in traced methods:
 ### Run the AutoDetect Plugin
 
 ```scala
-# after you run the TraceExtension plugin
+// after you run the TraceExtension plugin
 joern> opts.autodetect.outputPath = "/path/to/VulReport.txt"
 joern> run.autodetect
 ```
