@@ -113,7 +113,12 @@ cd ./joern-inst/joern-cli
 ### 2. Import a CPG
 
 ```scala
+# if you have cpg
 joern> importCpg("/path/to/your/cpg.bin")
+
+# if you only have source code
+joern> importCode(inputPath="/path/to/src_dir/", projectName="xxx")
+# you will find the cpg in ./workspace/xxx
 ```
 
 ### 3. Configure Trace Paths
