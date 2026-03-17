@@ -113,7 +113,7 @@ cd ./joern-inst/joern-cli
 ### 2. Import a CPG
 
 ```scala
-# if you have cpg
+// if you have cpg
 joern> importCpg("/path/to/your/cpg.bin")
 
 // if you only have source code
