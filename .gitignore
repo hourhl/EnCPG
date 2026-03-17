@@ -1,0 +1,13 @@
+target/
+project/target/
+project/project/
+joern-inst/
+joern-cli.zip
+plugin.zip
+joern-install.sh
+*.class
+*.log
+.bsp/
+.idea/
+build.properties
+.vscode/
