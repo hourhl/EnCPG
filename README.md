@@ -1,6 +1,6 @@
 # Overview
 
-This project contains three plugin:TraceExtension, AutoDetect, AutoDetect4NoTrace
+This project contains three plugins:TraceExtension, AutoDetect, AutoDetect4NoTrace
 
 # Compile & Build
 
